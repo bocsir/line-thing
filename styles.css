@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    font-family: monospace;
+    margin: 0;
+    gap: 10px;
+}
+canvas {
+    border: 1px solid rgba(255, 255, 255, 0.479);
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.controls {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.controls div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+    font-size: xx-large;
+    color: rgb(255, 174, 0);
+}
+
+p {
+    margin: 0;
+    font-size: large;
+}
+
+label {
+    font-size: large;
+}
